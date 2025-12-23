@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color :rgba(129, 130, 134, 1);
+}
+.container{
+    padding: 40px;
+}
+img{
+    border-radius: 15px;
+    object-position: center;
+    object-fit: cover;
+    margin: auto !important;
+}
+#title{
+    font-size: 23px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px auto 15px auto;
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#artist{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:500;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+}
+.time{
+    margin: 40px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+#bar{
+    width: 100%;
+}
+.time-diff{
+    display: inherit;
+    justify-content:space-between;
+}
+.navigators{
+    padding: 20px 10px ;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.lyric-container{
+    margin-top:20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.lyric{
+    padding: 10px ;
+    border-radius: 10px;
+    background-color:rgba(131, 131, 134, 0.6);
+}
+i{
+    font-size:25px;
+    font-weight:900;
+}
+.navigators i{
+    font-size:45px;
+    font-weight:900;
+}
+#mpeg{
+    display: none;
+}
+@media screen and (min-width:600px){
+    .container{
+        width:50vw ;
+        border: 2px solid blue;
+        margin: auto;
+    }
+}
