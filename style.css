@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color :rgba(129, 130, 134, 1);
+    background-color: rgba(99, 113, 196, 1);
 }
 .container{
     padding: 40px;
@@ -83,5 +83,6 @@ i{
         width:50vw ;
         border: 2px solid blue;
         margin: auto;
+        margin-top: 40px;
     }
 }

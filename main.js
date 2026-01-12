@@ -48,7 +48,8 @@ prev.onclick = () => {
   audio.play();
   songName.innerHTML = "Dusty Bibles";
   artist.innerHTML = "Josiah Queens";
-  if(play.classList.contains("fa-play")){
+  body.style.backgroundColor = 'rgba(197, 61, 61, 1)';
+  /*if(play.classList.contains("fa-play")){
     play.classList.remove("fa-play");
     play.classList.add("fa-pause");
     audio.play();
@@ -56,7 +57,7 @@ prev.onclick = () => {
     play.classList.remove("fa-pause");
     play.classList.add("fa-play");
     audio.pause();
-  }
+  }*/
 }
 next.onclick = () => {
   mpeg.src = "/Juliani.mp3";
@@ -65,7 +66,8 @@ next.onclick = () => {
   mpeg.play();
   songName.innerHTML = "Exponential potential";
   artist.innerHTML = "Juliani";
-  if(play.classList.contains("fa-play")) {
+  body.style.backgroundColor = 'rgba(99, 113, 196, 1)';
+  /*if(play.classList.contains("fa-play")) {
   play.classList.remove("fa-play");
   play.classList.add("fa-pause");
   audio.play();
@@ -73,5 +75,5 @@ next.onclick = () => {
   play.classList.remove("fa-pause");
   play.classList.add("fa-play");
   audio.pause();
-}
+}*/
 }
